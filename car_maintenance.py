@@ -5,8 +5,8 @@ import datetime
 import uuid
 
 # --- 1. إعداد الاتصال بـ Supabase ---
-SUPABASE_URL = "YOUR_SUPABASE_URL"
-SUPABASE_KEY = "YOUR_SUPABASE_ANON_KEY"
+SUPABASE_URL = "https://jrkyajgheufgoadyxlcv.supabase.co"
+SUPABASE_KEY = "sb_publishable_REP7ujaYG-RYWJyK2fKKrw__I9H3h6g"
 
 @st.cache_resource
 def init_supabase() -> Client:
